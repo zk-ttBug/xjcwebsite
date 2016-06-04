@@ -7,13 +7,12 @@
  * @constructor
  */
 
-var tpl = __inline('index.tpl');
+var tpl = __inline('about.tpl');
 var head = require('widgets/head');
-var slider = require('widgets/slider');
 var footer = require('widgets/footer');
 var port = require('util/port');
 
-var index = Vue.extend({
+var about = Vue.extend({
     template: tpl,
     data: function () {
         return {
@@ -25,18 +24,9 @@ var index = Vue.extend({
     },
     components: {
         "c-head": head(),
-        "c-slider": slider(),
         "c-footer": footer()
     },
     ready: function () {
-        $("div.blog-post").hover(
-            function () {
-                $(this).find("div.content-hide").slideToggle("fast");
-            },
-            function () {
-                $(this).find("div.content-hide").slideToggle("fast");
-            }
-        );
         $('.testimonails-slider').flexslider({
             animation: 'slide',
             slideshowSpeed: 5000,
@@ -44,7 +34,7 @@ var index = Vue.extend({
             nextText: '',
             controlNav: false
         });
-        $('#Container').mixItUp();
+
     },
     method: function () {
 
@@ -52,7 +42,7 @@ var index = Vue.extend({
 });
 
 var init = function () {
-    return new index({
+    return new about({
         el: "#page-main",
         replace: false
     })

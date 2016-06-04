@@ -28,8 +28,8 @@
                 <div class="col-md-6">
                     <div class="main-menu">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about-us.html">About</a></li>
+                            <li><a href="#!/index">Home</a></li>
+                            <li><a href="#!/about">About</a></li>
                             <li><a href="products.html">Products</a></li>
                             <li><a href="contact-us.html">Contact</a></li>
                         </ul>

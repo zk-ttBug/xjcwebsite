@@ -16,13 +16,7 @@ var slider = Vue.extend({
             nextText: ''
         });
 
-        $('.testimonails-slider').flexslider({
-            animation: 'slide',
-            slideshowSpeed: 5000,
-            prevText: '',
-            nextText: '',
-            controlNav: false
-        });
+
     },
     props: ['page'],
     methods: {},
