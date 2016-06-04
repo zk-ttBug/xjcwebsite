@@ -29,6 +29,7 @@ var index = Vue.extend({
         "c-footer": footer()
     },
     ready: function () {
+        plugins();
         $("div.blog-post").hover(
             function () {
                 $(this).find("div.content-hide").slideToggle("fast");

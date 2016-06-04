@@ -1,6 +1,22 @@
 <section class="about-head">
     <c-head page="about"></c-head>
 </section>
+
+
+
+<div id="heading">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading-content">
+                    <h2>Our Products</h2>
+                    <span>Home / <a href="about-us.html">About</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="timeline-post">
     <div class="container">
         <div class="row">

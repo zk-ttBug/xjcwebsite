@@ -1,18 +1,18 @@
 'use strict';
 
 /**
- * 网站首页
+ * 产品列表页
  *
  * @class index
  * @constructor
  */
 
-var tpl = __inline('about.tpl');
+var tpl = __inline('products.tpl');
 var head = require('widgets/head');
 var footer = require('widgets/footer');
 var port = require('util/port');
 
-var about = Vue.extend({
+var products = Vue.extend({
     template: tpl,
     data: function () {
         return {
@@ -27,15 +27,12 @@ var about = Vue.extend({
         "c-footer": footer()
     },
     ready: function () {
-        plugins();
-        $('.testimonails-slider').flexslider({
-            animation: 'slide',
-            slideshowSpeed: 5000,
-            prevText: '',
-            nextText: '',
-            controlNav: false
+        console.log('here');
+        Vue.nextTick(function () {
+            plugins();
+            $('#Container').mixItUp();
+            $(".fancybox").fancybox();
         });
-
     },
     method: function () {
 
@@ -43,7 +40,7 @@ var about = Vue.extend({
 });
 
 var init = function () {
-    return new about({
+    return new products({
         el: "#page-main",
         replace: false
     })
