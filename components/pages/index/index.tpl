@@ -4,3 +4,6 @@
 <section>
     <c-slider page="index"></c-slider>
 </section>
+<section>
+    <c-footer page="index"></c-footer>
+</section>

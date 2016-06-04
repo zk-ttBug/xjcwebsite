@@ -10,6 +10,7 @@
 var tpl = __inline('index.tpl');
 var head = require('widgets/head');
 var slider = require('widgets/slider');
+var footer = require('widgets/footer');
 var port = require('util/port');
 
 var index = Vue.extend({
@@ -25,6 +26,7 @@ var index = Vue.extend({
     components:{
         "c-head":head(),
         "c-slider":slider(),
+        "c-footer":footer()
     },
     ready: function () {
 
