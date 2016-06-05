@@ -3,31 +3,28 @@
         <ul class="slides">
             <li>
                 <div class="slider-caption">
-                    <h1>Delicious Meals</h1>
-
-                    <p>Donec justo dui, semper vitae aliquam euzali, ornare pretium enim. Maecenas molestie diam
-                        <br><br>eget tellus luctus fermentum.</p>
-                    <a href="javascript:void(0)">Shop Now</a>
+                    <h1>浓浓的甜味</h1>
+                    <p>不添加任何防腐剂，新鲜出炉，只为让你亲上一口</p>
+                        <!--<br><br>eget tellus luctus fermentum.</p>-->
+                    <a href="javascript:void(0)">了解详情</a>
                 </div>
                 <img src="./images/banner1.png" alt=""/>
             </li>
             <li>
                 <div class="slider-caption">
-                    <h1>Ice-cream Menus</h1>
+                    <h1>全麦盛宴</h1>
 
-                    <p>Nulla id iaculis ligula. Vivamus mattis quam eget urna tincidunt consequat. Nullam
-                        <br><br>consectetur tempor neque vitae iaculis. Aliquam erat volutpat.</p>
-                    <a href="javascript:void(0)">More Details</a>
+                    <p>味蕾上的巴黎风尚，唇齿间的美味沙龙。</p>
+                    <a href="javascript:void(0)">马上体验</a>
                 </div>
                 <img src="./images/banner2.png" alt=""/>
             </li>
             <li>
                 <div class="slider-caption">
-                    <h1>Healthy Drinks</h1>
+                    <h1>巧克力系列</h1>
 
-                    <p>Maecenas fermentum est ut elementum vulputate. Ut vel consequat urna. Ut aliquet
-                        <br><br>ornare massa, quis dapibus quam condimentum id.</p>
-                    <a href="javascript:void(0)">Get Ready</a>
+                    <p>一秒融化在口里，回味无穷在心中</p>
+                    <a href="javascript:void(0)">已经准备</a>
                 </div>
                 <img src="./images/banner3.png" alt=""/>
             </li>
