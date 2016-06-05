@@ -11,6 +11,7 @@ var tpl = __inline('slider.tpl');
 var slider = Vue.extend({
     template: tpl,
     ready: function () {
+        plugins();
         $('.flexslider').flexslider({
             prevText: '',
             nextText: ''
